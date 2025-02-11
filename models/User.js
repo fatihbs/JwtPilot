@@ -11,6 +11,7 @@ const UserSchema = new mongoose.Schema({
   last_access_date: { type: Date, default: Date.now },
   updated_at: { type: Date, default: Date.now },
   enabled: { type: Boolean, default: true },
+  role: { type: String, default: 'user', enum: ['user', 'admin'] },
 });
 
 UserSchema.pre('save', async function (next) {
