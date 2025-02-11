@@ -1,2 +1,4 @@
-JWT Role Based Authentication Örneği
-Kodların Tamamı GitHub Copilot ile oluşturuldu.
+JWT Role Based Authentication örneğidir.
+
+Kodların tamamı GitHub Copilot ile oluşturuldu.
+
